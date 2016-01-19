@@ -2,12 +2,13 @@
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:named-data/ppa
 sudo apt-get update 
-sudo  apt-get install ndn-cxx  -y
+sudo apt-get install ndn-cxx  -y
 sudo apt-get install nfd  -y
 sudo apt-get install nlsr  -y
 sudo apt-get install ndn-tools  -y
 sudo apt-get install git  -y
 
+cd 
 
 sudo apt-get install -y \
 	python-pip 
