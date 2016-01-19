@@ -1,0 +1,20 @@
+we can edit source code in
+sudo leafpad /home/mininet/mini-ndn/bin/minindn
+
+after that we need reinstall
+
+/home/mininet/mini-ndn# python setup.py install
+
+
+alternative it to rename bin/minindn to py file and run/debug it in pycharm or spyder
+
+to call pycharm use
+
+sudo charm
+
+then create a project
+
+
+##
+interface creation 
+http://yoursunny.com/t/2014/nfd-connect/
