@@ -9,4 +9,4 @@ sudo wget https://raw.githubusercontent.com/named-data/ndn-tools/master/tools/di
 sudo wget https://raw.githubusercontent.com/named-data/ndn-tools/master/tools/dissect-wireshark/README.md
 
 echo "-- dofile(\"/full/path/to/ndn.lua\")" | sudo tee -a /usr/share/wireshark/init.lua
-echo "dofile(\"/usr/local/share/ndn-dissect-wireshark/ndn.lua\")" | sudo tee -a /usr/share/wireshark/init.lua
+echo "dofile(\"/usr/share/ndn-dissect-wireshark/ndn.lua\")" | sudo tee -a /usr/share/wireshark/init.lua
